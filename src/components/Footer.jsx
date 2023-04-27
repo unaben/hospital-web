@@ -73,11 +73,11 @@ const Footer = () => {
             <li>07:00 PM - 11:00 PM</li>
             <li>
               <i className="fas fa-envelope"></i>
-              <span>smartclinic@Online.com</span>
+              <span>smartclinic@online.com</span>
             </li>
             <li>
               <i className="fas fa-phone"></i>
-              <span>+44 7478 2834(00)</span>
+              <span>+44 7478-2834-010</span>
             </li>
           </ul>
         </div>
