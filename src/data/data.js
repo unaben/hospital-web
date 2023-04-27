@@ -1,17 +1,17 @@
 export const data = {
   doctorData: [
     {
-      name: "samuel goe",
+      name: "nathan leonard",
       image: "images/doc-1.png",
       speciality: "Gynaecologist",
     },
     {
-      name: "elizabeth ira",
+      name: "chelsea young",
       image: "images/doc-2.png",
       speciality: "Cardiologist",
     },
     {
-      name: "tanya collins",
+      name: "roseline lampard",
       image: "images/doc-3.png",
       speciality: "Optician",
     },
