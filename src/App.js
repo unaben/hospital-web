@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable jsx-a11y/iframe-has-title */
+import DoctorPanel from "./components/DoctorPanel";
+import Footer from "./components/Footer";
+import HeaderContent from "./components/HeaderContent";
+import NavBar from "./components/NavBar";
+import Packages from "./components/Packages";
+import Posts from "./components/Posts";
+import About from "./pages/About";
+import BannerOne from "./pages/BannerOne";
+import BannerTwo from "./pages/BannerTwo";
+import Contacts from "./pages/Contacts";
+import Services from "./pages/Services";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="header bg-blue">
+        <NavBar />
+        <HeaderContent />
       </header>
-    </div>
+      <main>
+        <About />
+        <BannerOne />
+        <Services />
+        <BannerTwo />
+        <DoctorPanel />
+        <Packages />
+        <Posts />
+        <Contacts />
+      </main>
+      <footer id="footer" className="footer text-center">
+        <Footer />
+      </footer>
+    </>
   );
-}
+};
 
 export default App;
