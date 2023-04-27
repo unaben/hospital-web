@@ -15,10 +15,11 @@ const Footer = () => {
             saepe incidunt fugiat optio corporis ea!
           </p>
           <address>
-            Medic Clinic <br />
-            69 Deerpark Rd, Mount Merrion <br />
-            Co. Dublin, A94 E9D3 <br />
-            Ireland
+            Smart Clinic <br />
+            118 WestBury Rd, Edgbaston West <br />
+            Birmingham, B18 4DD <br />
+            West Midlands <br />
+            United Kingdom
           </address>
         </div>
 
@@ -67,21 +68,20 @@ const Footer = () => {
             Voluptatum, omnis.
           </p>
           <ul className="appointment-info">
-            <li>8:00 AM - 11:00 AM</li>
-            <li>2:00 PM - 05:00 PM</li>
-            <li>8:00 PM - 11:00 PM</li>
+            <li>08:00 AM - 12:00 PM</li>
+            <li>01:00 PM - 06:00 PM</li>
+            <li>07:00 PM - 11:00 PM</li>
             <li>
               <i className="fas fa-envelope"></i>
-              <span>revomedic@gmail.com</span>
+              <span>smartclinic@Online.com</span>
             </li>
             <li>
               <i className="fas fa-phone"></i>
-              <span>+003 478 2834(00)</span>
+              <span>+44 7478 2834(00)</span>
             </li>
           </ul>
         </div>
       </div>
-
       <div className="footer-links">
         <ul className="flex">
           <li>
